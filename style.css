@@ -164,6 +164,9 @@ body main .tasks #tasks__counter {
   flex: 1;
   margin: 0 1rem;
 }
+.tasks__task .tasks__check .tasks__select {
+  background: #e58181;
+}
 .tasks__task .tasks__name {
   flex: 10;
 }
@@ -171,6 +174,7 @@ body main .tasks #tasks__counter {
   flex: 1;
   margin: 0 1rem;
   text-align: right;
+  color: #e58181;
 }
 
 * {

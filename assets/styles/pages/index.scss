@@ -40,6 +40,9 @@ body {
     .tasks__check {
         flex: 1;
         margin: 0 1rem;
+        .tasks__select {
+            background: $primary;
+        }
     }
     .tasks__name {
         flex: 10;
@@ -48,5 +51,6 @@ body {
         flex: 1;
         margin: 0 1rem;
         text-align: right;
+        color: $primary;
     }
 }
