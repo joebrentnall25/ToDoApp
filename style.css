@@ -1,0 +1,14 @@
+.btn-primary {
+  background-image: linear-gradient(180deg, #e1a0a0, #e58181);
+  box-shadow: 0 10px 40px #6B3838;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-image: linear-gradient(180deg, #E2c1c1, #ea8282);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
