@@ -15,7 +15,6 @@
             <button class="btn-primary btn-font">Reset</button>
         </div>
     </nav>
-    <script src="script.js" defer></script>
     <main>
         <header class="header">
             <h2 class="header__title header-font">Welcome Back Jake!</h2>
@@ -23,11 +22,15 @@
         </header>
         <form action="#" class="form">
             <input type="text" class="form__input para-font" name="form__input" id="form__input" placeholder="Add your task here...">
-            <i class="form__add fa-lg fas fa-plus-circle"></i>
+            <button id="form__btn" type="button"><i class="form__add fa-lg fas fa-plus-circle"></i></button>
         </form>
         <section class="tasks">
             <h2 class="label-font">Tasks</h2>
+            <div id="tasks__container">
+
+            </div>
         </section>
     </main>
+    <script src="script.js" defer></script>
 </body>
 </html>

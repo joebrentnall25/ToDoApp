@@ -74,6 +74,12 @@
   background-image: linear-gradient(180deg, #E2c1c1, #ea8282);
 }
 
+.btn-form {
+  background-color: #2b2a33;
+  border: none;
+  visibility: hidden;
+}
+
 .form {
   margin: 5%;
   border: 2px dashed #6c6a7c;
@@ -89,6 +95,7 @@
   background: none;
   border: none;
   width: 60vw;
+  padding: 0.5rem;
 }
 .form .form__input::placeholder {
   font-size: 16px;
@@ -108,22 +115,52 @@
   align-items: center;
 }
 
-main .header {
+body {
+  background-color: #232229;
+}
+body main .header {
   margin: 5vh 5%;
 }
-main .header .header__title {
+body main .header .header__title {
   margin-bottom: 1rem;
 }
-main .header .header__para {
+body main .header .header__para {
   margin-bottom: 2rem;
 }
-main .tasks {
+body main .tasks {
   margin: 5vh 5%;
+}
+body main .tasks h2 {
+  margin-bottom: 2rem;
+}
+body main .tasks #tasks__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 3rem;
+  gap: 2px;
+}
+
+.tasks__task {
+  height: 100%;
+  background-color: #2b2a33;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tasks__task .tasks__check {
+  flex: 1;
+  margin: 0 1rem;
+}
+.tasks__task .tasks__name {
+  flex: 10;
+}
+.tasks__task .tasks__edit {
+  flex: 1;
+  margin: 0 1rem;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #232229;
 }

@@ -1,17 +1,48 @@
 @import '../utility/variables';
 
-main {
-    .header {
-        margin: 5vh 5%;
-        .header__title {
-            margin-bottom: 1rem;
+body {
+    background-color: $dark0;
+    main {
+        .header {
+            margin: 5vh 5%;
+            .header__title {
+                margin-bottom: 1rem;
+            }
+            .header__para {
+                margin-bottom: 2rem;
+            }
         }
-        .header__para {
-            margin-bottom: 2rem;
+        .tasks {
+            margin: 5vh 5%;
+            h2 {
+                margin-bottom: 2rem;
+            }
+            #tasks__container {
+                display: grid;
+                grid-template-columns:1fr;
+                grid-auto-rows: 3rem;
+                gap: 2px;
+                
+            }
         }
-    }
-    .tasks {
-        margin: 5vh 5%
     }
 }
 
+.tasks__task {
+    height: 100%;
+    background-color: $dark1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .tasks__check {
+        flex: 1;
+        margin: 0 1rem;
+    }
+    .tasks__name {
+        flex: 10;
+    }
+    .tasks__edit {
+        flex: 1;
+        margin: 0 1rem;
+    }
+}
