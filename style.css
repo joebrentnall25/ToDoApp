@@ -131,13 +131,16 @@ body main .tasks {
   margin: 5vh 5%;
 }
 body main .tasks h2 {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 body main .tasks #tasks__container {
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: 3rem;
   gap: 2px;
+}
+body main .tasks #tasks__counter {
+  margin-top: 1rem;
 }
 
 .tasks__task {
