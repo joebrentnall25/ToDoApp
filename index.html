@@ -4,10 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyToDos</title>
+    <title>MyTodos</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2b7f6fb16c.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <nav class="nav">
+        <div class="nav__container">
+            <h1 class="logo-font">MyTodos</h1>
+            <button class="btn-primary btn-font">Reset</button>
+        </div>
+    </nav>
     <script src="script.js" defer></script>
+    <main>
+        <header class="header">
+            <h2 class="header__title header-font">Welcome Back Jake!</h2>
+            <p class="header__para para-font">Let’s enter the tasks we need to complete for this upcoming week. Just use the input below to create a todo. </p>
+        </header>
+        <form action="#" class="form">
+            <input type="text" class="form__input para-font" name="form__input" id="form__input" placeholder="Add your task here...">
+            <i class="form__add fa-lg fas fa-plus-circle"></i>
+        </form>
+        <section class="tasks">
+            <h2 class="label-font">Tasks</h2>
+        </section>
+    </main>
 </body>
 </html>

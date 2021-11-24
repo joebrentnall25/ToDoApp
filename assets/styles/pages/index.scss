@@ -1,0 +1,17 @@
+@import '../utility/variables';
+
+main {
+    .header {
+        margin: 5vh 5%;
+        .header__title {
+            margin-bottom: 1rem;
+        }
+        .header__para {
+            margin-bottom: 2rem;
+        }
+    }
+    .tasks {
+        margin: 5vh 5%
+    }
+}
+

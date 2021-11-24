@@ -1,0 +1,11 @@
+@import '../utility/variables';
+
+.nav {
+    .nav__container {
+        margin: 5%;        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

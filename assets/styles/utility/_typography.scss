@@ -5,22 +5,53 @@
 }
 
 .header-font {
-    font-size: 48px;
+    font-size: 36px;
     font-family: 600;
+    color: $light0;
 }
 .logo-font {
     font-size: 24px;
     font-weight: 500;
+    color: $light0
 }
 .para-font {
     font-size: 16px;
     font-family: 400;
+    color: $light1;
 }
 .label-font {
     font-size: 16px;
     font-weight: 500;
+    color: $light0;
 }
-.btn-color {
+.btn-font {
     font-size: 16px;
     font-weight: bold;
+    color: $light0;
+}
+
+@media screen and (min-width: 481px) {
+    .header-font {
+        font-size: 48px;
+        font-family: 600;
+        color: $light0;
+    }
+    .logo-font {
+        font-size: 24px;
+        font-weight: 500;
+        color: $light0
+    }
+    .para-font {
+        font-size: 16px;
+        font-family: 400;
+    }
+    .label-font {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .btn-font {
+        font-size: 16px;
+        font-weight: bold;
+        color: $light0;
+    }
 }

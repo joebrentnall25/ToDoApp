@@ -1,8 +1,20 @@
-@import './assets/styles/utility/_variables.scss';
+// Utility
+@import './assets/styles/utility/variables';
+@import './assets/styles/utility/typography';
+
+// Components
 @import './assets/styles/components/buttons';
+@import './assets/styles/components/form';
+
+// Layout
+@import './assets/styles/layout/nav';
+
+// Pages 
+@import './assets/styles/pages/index.scss';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: $dark0;
 }
