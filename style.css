@@ -115,6 +115,16 @@
   align-items: center;
 }
 
+.footer {
+  position: fixed;
+  height: 15vh;
+  background-color: #2b2a33;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: none;
+}
+
 body {
   background-color: #232229;
 }
@@ -160,6 +170,7 @@ body main .tasks #tasks__counter {
 .tasks__task .tasks__edit {
   flex: 1;
   margin: 0 1rem;
+  text-align: right;
 }
 
 * {
